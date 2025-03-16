@@ -5,22 +5,20 @@ import Image from "next/image";
 export default function CVPage() {
   return (
     <section>
-      {/* 메인 타이틀 */}
-      <h1 className="text-4xl font-bold mb-6">CV</h1>
-
       {/* 프로필 섹션 */}
+      
       <div className="flex flex-col items-center mb-12">
-        <div className="w-40 h-40 relative mb-4">
+        <div className="w-72 h-72 relative mb-6"> {/* 프로필 이미지 크기 확대 */}
           <Image
             src="/profile.png"
             alt="Profile image"
-            width={160}
-            height={160}
-            className="object-cover rounded-full"
+            width={288}
+            height={288}
+            className="object-cover rounded-xl"
           />
         </div>
-        <h2 className="text-2xl font-bold mb-1">Da Sol Lee</h2>
-        <p className="text-gray-600">Product Designer, based in Seoul</p>
+        <h2 className="text-3xl font-bold mb-2">Da Sol Lee</h2>
+        <p className="text-lg text-gray-600">Product Designer, based in Seoul</p>
       </div>
 
       {/* Education */}

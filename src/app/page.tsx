@@ -16,7 +16,9 @@ const projects = [
 export default function Home() {
   return (
     <div className="min-h-screen w-full flex flex-col items-center bg-white">
+
       <main className="w-full py-8">
+
         {/* 5열 그리드 */}
         <div className="grid grid-cols-5 gap-x-2 gap-y-8 w-full">
           {projects.map((item) => (
