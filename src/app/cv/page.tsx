@@ -1,7 +1,6 @@
 // src/app/cv/page.tsx
 
 import Image from "next/image";
-import profileImg from "@/public/profile.png"; // 타입 세이프 방식 (선택사항)
 
 export default function CVPage() {
   return (
