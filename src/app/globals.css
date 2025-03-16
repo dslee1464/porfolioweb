@@ -14,6 +14,18 @@
   }
 }
 
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Black.woff2") format("woff2"),
+       url("/fonts/Gotham-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-gotham {
+  font-family: "Gotham", sans-serif;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
