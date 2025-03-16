@@ -29,7 +29,7 @@ export default function Home() {
 }
 
 /** 썸네일 */
-function Thumbnail({ data }: { data: unknown }) {
+function Thumbnail({ data }: { data: any }) {
   return (
     <div className="flex flex-col gap-2 items-center">
       {/* 썸네일 박스 */}
